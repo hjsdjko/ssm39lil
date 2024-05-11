@@ -1,0 +1,91 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/shop-recharge/recharge",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-order-confirm/shop-order-confirm",
+    "pages/shop-address/shop-address",
+    "pages/shop-address-detail/shop-address-detail",
+    "pages/shop-order/shop-order",
+    "pages/news-detail/news-detail",
+    "pages/qiuyuan/list",
+    "pages/qiuyuan/add-or-update",
+    "pages/qiuyuan/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/jiaolian/list",
+    "pages/jiaolian/add-or-update",
+    "pages/jiaolian/detail",
+    "pages/saishiricheng/list",
+    "pages/saishiricheng/add-or-update",
+    "pages/saishiricheng/detail",
+    "pages/saishileixing/list",
+    "pages/saishileixing/add-or-update",
+    "pages/saishileixing/detail",
+    "pages/liansaijifenbang/list",
+    "pages/liansaijifenbang/add-or-update",
+    "pages/liansaijifenbang/detail",
+    "pages/beisaijifenbang/list",
+    "pages/beisaijifenbang/add-or-update",
+    "pages/beisaijifenbang/detail",
+    "pages/zuqiuzhoubian/list",
+    "pages/zuqiuzhoubian/add-or-update",
+    "pages/zuqiuzhoubian/detail",
+    "pages/shangpinleixing/list",
+    "pages/shangpinleixing/add-or-update",
+    "pages/shangpinleixing/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "体育资讯软件小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#19191E",
+    "borderStyle": "white",
+    "backgroundColor": "#A27500",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/saishiricheng/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "赛事日程"
+      },
+      {
+        "pagePath": "pages/zuqiuzhoubian/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "足球周边"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
